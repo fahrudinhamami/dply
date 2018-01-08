@@ -1,0 +1,11 @@
+
+dply create -n myserver -o ubuntu-17-04-x64 -r nyc1
+getting info --
+dply info
+killing current server --
+dply kill
+dply.conf is of this form --
+[dply]
+useragent = XXX
+cookie_rack.session = XXX
+pub_sshkey = XXX
